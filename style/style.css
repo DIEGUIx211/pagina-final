@@ -1,0 +1,73 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat+Alternates:wght@300&display=swap');
+/*
+font-family: 'Abril Fatface', cursive;
+font-family: 'Montserrat Alternates', sans-serif;
+*/
+/* Estilos Generales*/
+html{
+min-height: 100%;
+position: relative;
+}
+body{
+margin: 0;
+margin-bottom: 40px;
+background-image: url("../images/fondo.png");
+background-size: contain;
+}
+/*Menu */
+#menu_pestañas{
+margin: 70px, auto;
+background-color: rgb(129, 192, 224);
+font-family: 'Abril Fatface', cursive;
+color: black;
+font-size: 25px;
+text-align: center;
+border-style: double;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+#menu{
+width: 100%;
+height: 60px;
+background-color: rgb(22, 27, 135);
+}
+
+
+
+#boton{
+padding: 10px;
+}
+#boton li{
+display: inline;
+}
+#boton li a{
+font-family: 'Montserrat Alternates', sans-serif;
+font-size: 15px;
+text-decoration: none;
+float: left;
+padding-left: 15px;
+background-color: rgb(101, 101, 247);
+color: #ffff;
+width: 80px;
+height: 30px;
+text-align: center;
+}
+#boton li a:hover{
+background-color: rgb(32, 32, 32);
+}
+/*primer texto*/
+.primer_texto{
+margin: 20px;
+padding: 20px;
+background-color: rgba(0, 0, 0, 50%);
+}
+.subtitulo{
+text-align: center;
+font-family: 'Abril Fatface', cursive;
+font-size: 40px;
+color: #ffff;
+}
+.texto{
+    color: #ffff; 
+}
